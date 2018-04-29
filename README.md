@@ -1,2 +1,5 @@
 # Home-Project-Employee-Log-Processor
 Process the basic file from a fingerprint logger and calculate the rough hours a person worked during the time
+    My mother recently bought fingerprint logger, and it makes log outputs in order of time. She wanted to be able to get the the total working hour of each worker, so i end up making this small program. Had to make it in java because she uses a mac.
+    I made this very simple by giving it only 1 button, at the press of the button it opens a file opener which locates at the desktop(I instructed her to always drag the file there), once the file is opened, the program will clear the previous log and process the new one. better yet it put the result into the clip board, so she doesn't even have to worry about the copy part.
+    The down side is the function of this Processor is extremely limited due to me formating the program specificly to the log the fingerprint logger generates. which means it cannot process anything else nor the log if there were changes made to it and destroyed the spacing/formate of it.
